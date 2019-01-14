@@ -14,8 +14,6 @@ def who_is_bigger(a,b,c)
     end
 end
 
-#"hEllO".upcase #=> "HELLO"
-#str.gsub("\n", "")              # Remove all \n  
 
 def reverse_upcase_noLTA(a)
     a_s = a.to_s
@@ -30,4 +28,3 @@ end
 def magic_array(a)
     return a.flatten.sort.map{|x| x * 2}.delete_if{|x| x%3 == 0}.uniq
 end
-
